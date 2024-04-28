@@ -50,9 +50,6 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h2>PODES ENCONTRARME EN</h2>
-            <p>
-              No <span className="purple"> dudes </span> en contactarme
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -85,6 +82,9 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <p>
+              <span className="purple">No dudes </span> en contactarme
+            </p>
           </Col>
         </Row>
       </Container>
