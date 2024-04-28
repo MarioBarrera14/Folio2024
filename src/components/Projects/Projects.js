@@ -5,10 +5,11 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import sitrack from "../../Assets/Projects/sitrack.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
+  
   return (
     <Container fluid className="project-section">
       <Container>
@@ -31,8 +32,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="BLOC"
-              description="Bloc de Notas"
+              title="BLOC_Note"
+              description="Esta es una aplicación web básica para administrar notas simples en la web utilizando tecnologías Javascript como Nodejs,Mongodb y otras tecnologías relacionadas.Técnicamente, esta es una aplicación de varias páginas que utiliza Handlebars como motor de plantillas."
               ghLink="https://github.com/MarioBarrera14/Bloc_d.e_notas_express_mongodb_js_hbs"
               demoLink="https://bloc-d-e-notas-express-mongodb-js-hbs.onrender.com/notes"
             />
@@ -43,7 +44,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Carrito de compras"
-              description="Ref"
+              description="Esta aplicacion implementa un carrito de compras básico en una página web, permitiendo agregar productos, mostrar el total de la compra, vaciar el carrito y mostrar notificaciones al usuario."
               ghLink="https://github.com/MarioBarrera14/ventas_coder"
               demoLink="https://ventas-coder.vercel.app/"              
             />
@@ -53,21 +54,20 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Ref."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Ecomerce"
+              description="Esta aplicacion proporciona la funcionalidad para agregar productos al carrito, mostrarlos en la interfaz de usuario, calcular el precio total de la compra, vaciar el carrito y mostrar el valor total de la compra al usuario."
+              ghLink="https://github.com/MarioBarrera14/ProyectoFinalBarrera"
+              demoLink="https://proyecto-final-barrera.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={sitrack}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Ref."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Simulador_gps"
+              description="Este script genera informes de ubicación aleatoria y los envía al servidor SITRACK utilizando una autenticación basada en firma. El proceso se repite cada 60 segundos durante 5 minutos antes de detenerse."
+              ghLink="https://github.com/MarioBarrera14/simulador_gps_virtual_sitrack"
             />
           </Col>
 
