@@ -54,7 +54,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Ecomerce"
+              title="Ecommerce"
               description="Esta aplicacion proporciona la funcionalidad para agregar productos al carrito, mostrarlos en la interfaz de usuario, calcular el precio total de la compra, vaciar el carrito y mostrar el valor total de la compra al usuario."
               ghLink="https://github.com/MarioBarrera14/ProyectoFinalBarrera"
               demoLink="https://proyecto-final-barrera.vercel.app/"
