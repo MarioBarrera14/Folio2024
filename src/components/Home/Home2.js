@@ -27,7 +27,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Siempre que puedo, aplico mi pasión por desarrollar productos utilizando 
+              Aplico mi pasión por desarrollar productos utilizando 
               <b className="purple"> Node.js </b> y
               <i>
                 <b className="purple">

@@ -25,8 +25,6 @@ function AboutCard() {
             <br />
             Mi actitud positiva me ayudan a mantenerme motivado y a aportar ideas creativas al equipo.
           </p>
-
-          <footer className="blockquote-footer">MB</footer>
         </blockquote>
       </Card.Body>
     </Card>
