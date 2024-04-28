@@ -20,12 +20,10 @@ function AboutCard() {
             <br />
             Estoy siempre dispuesto a asumir responsabilidades adicionales y
             colaborar en equipo para lograr los objetivos del proyecto. Además,
-            tengo la capacidad de adaptarme rápidamente a los cambios y de
-            resolver porblemas de manera efectiva.
+            tengo la capacidad de adaptarme rápidamente a los cambios.
             <br />
             <br />
-            Mi enfoque orientado a resultados y mi actitud positiva me ayudan a
-            mantenerme motivado y a aportar ideas creativas al equipo.
+            Mi actitud positiva me ayudan a mantenerme motivado y a aportar ideas creativas al equipo.
           </p>
 
           <footer className="blockquote-footer">MB</footer>
